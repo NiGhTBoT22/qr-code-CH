@@ -1,0 +1,46 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --image: "images/image-qr-code.png"
+}
+
+.img{
+    display: block;
+    max-width: 50%;
+}
+
+.window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: var(--Light-gray);
+}
+
+.con-box{
+    background-color: var(--White);
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-height: auto;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 1.5%;
+}
+.con-box h1{
+    font-weight: 700;
+}
+.con-box p{
+    font-size: 15px;
+}
+
+.con__qr-box{
+    width: 150px;
+    height: 100px;
+    
+}
